@@ -9,10 +9,7 @@ from models.gemini_client import GeminiClient
 
 
 class NovaChatbot:
-    """
-    Nova - Human-like conversational companion with multi-layered memory.
-    Designed to meet STAN Internship Challenge requirements.
-    """
+    
 
     def __init__(self, api_key: Optional[str] = None):
         # Load API key
