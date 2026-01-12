@@ -5,7 +5,7 @@ from typing import Optional
 import os
 from contextlib import asynccontextmanager
 
-from chatbot import NovaChatbot
+from backened.chatbot import NovaChatbot
 from memory.long_term import get_user_profile, upsert_user_profile, init_db
 from memory.vector_store import VectorMemory
 
